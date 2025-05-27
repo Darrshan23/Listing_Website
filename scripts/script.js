@@ -1,5 +1,4 @@
 // DOM Elements
-const loader = document.getElementById('loader');
 const navbar = document.getElementById('navbar');
 const mobileToggle = document.getElementById('mobileToggle');
 const navMenu = document.getElementById('navMenu');
@@ -61,13 +60,6 @@ const listingsData = [
         category: "services"
     }
 ];
-
-// Loading Animation
-window.addEventListener('load', () => {
-    setTimeout(() => {
-        loader.classList.add('hidden');
-    }, 1500);
-});
 
 // Navbar Scroll Effect
 window.addEventListener('scroll', () => {
