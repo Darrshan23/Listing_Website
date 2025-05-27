@@ -1,7 +1,7 @@
 import React from "react";
-import "./Styles/Navbar.css";
+import "./Styles/Header.css";
 
-const Navbar = () => {
+const Header = () => {
     return (
         <nav className="navbar" id="navbar">
             <div className="nav-container">
@@ -81,5 +81,5 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Header;
 
